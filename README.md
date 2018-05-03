@@ -1,5 +1,5 @@
 ## Shadowsocks URL Generator
-Simple script to generate shadowsocks base64 encoded URL from config file
+Python script that parses Shadowsocks server configuration file and generates a client configuration URI
 
 ### Usage
 Simply copy and paste the following in a terminal:
@@ -8,6 +8,7 @@ python <(curl -s https://raw.githubusercontent.com/amayatsky/shadowsocks-url-gen
 -c /etc/shadowsocks-libev/config.json
 ```
 Change /etc/shadowsocks-libev/config.json path if needed.
+
 ### Example
 Input:
 ```javascript
@@ -22,7 +23,9 @@ Output:
 ```bash
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYWtlX3B3ZEBnaXRodWIuY29tOjgzODg=
 ```
+
 ### Requirements
 Python (compatible with both 2 and 3 interpeter versions)
+
 ### Contribution
-Feel free to send me your PRs! :)
+Feel free to send your PRs and report any issues.
