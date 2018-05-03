@@ -5,9 +5,11 @@ import base64
 
 parser = argparse.ArgumentParser(description='A script that parses Shadowsocks server configuration file and generates '
                                              'a client configuration URI')
-parser.add_argument('--config', '-c', type=str, default='/etc/shadowsocks-libev/config.json',
-                    help='A path to your Shadowsocks server config.json')
+parser.add_argument('--config', '-c', type=str, help='A path to your Shadowsocks server config.json')
 args = parser.parse_args()
+if args.config is None:
+    args.config='/etc/shadowsocks-libev/config.json'
+    print('Using default config path: {}'.format(args.config))
 
 config = json.load(open(args.config))
 
