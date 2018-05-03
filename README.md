@@ -4,8 +4,8 @@ Simple script to generate shadowsocks base64 encoded URL from config file
 ### Usage
 Simply copy and paste the following in a terminal:
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/amayatsky/shadowsocks-url-generator/master/generate-url.sh) \
-/etc/shadowsocks-libev/config.json
+python <(curl -s https://raw.githubusercontent.com/amayatsky/shadowsocks-url-generator/master/ss-genuri.py) \
+-c /etc/shadowsocks-libev/config.json
 ```
 Change /etc/shadowsocks-libev/config.json path if needed.
 ### Example
