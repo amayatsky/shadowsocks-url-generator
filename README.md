@@ -29,3 +29,7 @@ Python (compatible with both 2 and 3 interpeter versions)
 
 ### Contribution
 Feel free to send your PRs and report any issues.
+
+### Where to get the shadowsocks itself?
+https://github.com/shadowsocks/shadowsocks-libev \
+https://www.shadowsocks.org/en/index.html
