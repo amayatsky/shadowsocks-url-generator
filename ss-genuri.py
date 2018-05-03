@@ -5,7 +5,7 @@ import base64
 
 parser = argparse.ArgumentParser(description='A script that parses Shadowsocks server configuration file and generates '
                                              'a client configuration URI')
-parser.add_argument('--config', '-c', type=str, default='/etc/shadowsocks/config.json',
+parser.add_argument('--config', '-c', type=str, default='/etc/shadowsocks-libev/config.json',
                     help='A path to your Shadowsocks server config.json')
 args = parser.parse_args()
 
