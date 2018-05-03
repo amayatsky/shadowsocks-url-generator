@@ -20,13 +20,9 @@ Input:
 ```
 Output:
 ```bash
-Server: github.com
-Method: chacha20-ietf-poly1305
-Password: HIDDEN
-Port: 8388
-URL: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYWtlX3B3ZEBnaXRodWIuY29tOjgzODg=#github.com
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYWtlX3B3ZEBnaXRodWIuY29tOjgzODg=
 ```
-### Disclaimer
-Requires Python to work
+### Requirements
+Python (compatible with both 2 and 3 interpeter versions)
 ### Contribution
 Feel free to send me your PRs! :)
