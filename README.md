@@ -1,5 +1,5 @@
 ## Shadowsocks URL Generator
-Python script that parses Shadowsocks server configuration file and generates a client configuration URI
+Python script that parses Shadowsocks server configuration file and generates a client configuration URI.
 
 ### Usage
 Simply copy and paste the following in a terminal:
@@ -25,7 +25,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYWtlX3B3ZEBnaXRodWIuY29tOjgzODg=
 ```
 
 ### Requirements
-Python (compatible with both 2 and 3 interpeter versions)
+Python (compatible with both 2 and 3 interpeter versions).
 
 ### Contribution
 Feel free to send your PRs and report any issues.
