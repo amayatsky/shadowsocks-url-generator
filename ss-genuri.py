@@ -24,10 +24,6 @@ uri = "%s:%s@%s:%d" % (
 
 encoded_uri = base64.b64encode(uri.encode('utf-8')).decode('utf-8')
 
-remarks = 'Shadowsocks Server'
-
-if 'remarks' in config: remarks = config['remarks']
-
+remarks = config.get('remarks', 'Shadowsocks Server')
 remarks = "".join(remarks.split(' '))
-
-print(f"ss://{encoded_uri}#{remarks}")
+print('ss://%s%s' % (encoded_uri, remarks))
