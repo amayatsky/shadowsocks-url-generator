@@ -7,12 +7,13 @@ Simply copy and paste the following in a terminal:
 python <(curl -s https://raw.githubusercontent.com/amayatsky/shadowsocks-url-generator/master/ss-genuri.py) \
 -c /etc/shadowsocks-libev/config.json
 ```
-Change /etc/shadowsocks-libev/config.json path if needed.
+Change `/etc/shadowsocks-libev/config.json` path if needed. Alternatively, you can provide a different config file path
 
 ### Example
 Input:
-```javascript
+```json
 {
+    "remarks": "ShadowSocks Server",
     "server":"github.com",
     "server_port":8388,
     "password":"fake_pwd",
@@ -20,8 +21,8 @@ Input:
 }
 ```
 Output:
-```bash
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYWtlX3B3ZEBnaXRodWIuY29tOjgzODg=
+```
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYWtlX3B3ZEBnaXRodWIuY29tOjgzODg=#ShadowSocksServer
 ```
 
 ### Requirements
