@@ -22,11 +22,11 @@ Input:
 ```
 Output:
 ```
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYWtlX3B3ZEBnaXRodWIuY29tOjgzODg=#ShadowSocksServer
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYWtlX3B3ZEBnaXRodWIuY29tOjgzODg=#ShadowSocks%20Server
 ```
 
 ### Requirements
-Python (compatible with both 2 and 3 interpeter versions).
+Python 3.9+
 
 ### Contribution
 Feel free to send your PRs and report any issues.
