@@ -1,4 +1,5 @@
-## Shadowsocks URL Generator
+## Shadowsocks URL Generator [![Release](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Famayatsky%2Fshadowsocks-url-generator%2Freleases%2Flatest&query=%24.name&style=flat-square&label=Latest)](https://github.com/amayatsky/shadowsocks-url-generator/releases) [![Python](https://img.shields.io/badge/Python-3.9%2b-ffd343?style=flat-square)](https://www.python.org/downloads/) [![GithubActions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Famayatsky%2Fshadowsocks-url-generator%2Fbadge%3Fref%3Dmaster&style=flat-square)](https://github.com/amayatsky/shadowsocks-url-generator/actions/) [![License](https://img.shields.io/badge/License-Apache%202.0-green?style=flat-square)](https://github.com/amayatsky/shadowsocks-url-generator/blob/master/LICENSE)
+
 Python script that parses Shadowsocks server configuration file and generates a client configuration URI.
 
 ### Usage
