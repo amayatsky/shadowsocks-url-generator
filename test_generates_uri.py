@@ -7,11 +7,11 @@ class TestScript(unittest.TestCase):
     def setUp(self):
         self.config_path = 'test_config.json'
         sample_config = {
-            "server": "my-server.com",
-            "server_port": 8388,
-            "password": "mypassword",
-            "method": "aes-256-gcm",
-            "remarks": "Test Server"
+            "remarks": "ShadowSocks Server",
+            "server":"github.com",
+            "server_port":8388,
+            "password":"fake_pwd",
+            "method":"chacha20-ietf-poly1305"
         }
         with open(self.config_path, 'w') as f:
             json.dump(sample_config, f)
@@ -26,8 +26,7 @@ class TestScript(unittest.TestCase):
             capture_output=True,
             text=True
         )
-        self.assertEqual('ss://YWVzLTI1Ni1nY206bXlwYXNzd29yZEBteS1zZXJ2ZXIuY29tOjgzODg=#TestServer\n', result.stdout)
+        self.assertEqual('ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYWtlX3B3ZEBnaXRodWIuY29tOjgzODg=#ShadowSocks%20Server\n', result.stdout)
 
 if __name__ == '__main__':
     unittest.main()
-
